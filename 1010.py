@@ -1,0 +1,5 @@
+A, B, C = input().split(" ")
+X, Y, Z = input().split(" ")
+A, B, C, X, Y, Z = int(A), int(B), float(C), int(X), int(Y), float(Z)
+TOTAL = "%.2f" % ((B * C) + (Y * Z))
+print("VALOR A PAGAR: R$ %s" %TOTAL)
